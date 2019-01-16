@@ -1,0 +1,22 @@
+{
+  "name": "@airship/tslint-react-a11y",
+  "version": "0.0.1",
+  "description": "A package to extend your React project with TSLint a11y rules.",
+  "main": "tslint-react-a11y.js",
+  "keywords": [
+    "tslint",
+    "react",
+    "a11y"
+  ],
+  "author": "Seth Alexander",
+  "contributors": [
+    {
+      "name": "Seth Alexander",
+      "email": "seth@teamairship.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "tslint-microsoft-contrib": "^6.0.0"
+  }
+}
