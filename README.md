@@ -10,7 +10,7 @@ JSX a11y rules to extend [TSLint](https://palantir.github.io/tslint/) used by th
 
 In `tslint.json`
 
-```json
+```js
 {
   "extends": ["@airship/tslint-react-a11y"],
     "rules": {
