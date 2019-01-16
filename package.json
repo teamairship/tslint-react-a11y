@@ -1,6 +1,6 @@
 {
   "name": "@airship/tslint-react-a11y",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A package to extend your React project with TSLint a11y rules.",
   "main": "tslint-react-a11y.js",
   "keywords": [
