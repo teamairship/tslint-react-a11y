@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "A package to extend your React project with TSLint a11y rules.",
   "main": "tslint-react-a11y.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamairship/tslint-react-a11y.git"
+  },
   "keywords": [
     "tslint",
     "react",
@@ -10,12 +17,13 @@
   ],
   "author": "Seth Alexander",
   "contributors": [
-    {
-      "name": "Seth Alexander",
-      "email": "seth@teamairship.com"
-    }
+    "Seth Alexander <seth@teamairship.com>"
   ],
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teamairship/tslint-react-a11y/issues"
+  },
+  "homepage": "https://github.com/teamairship/tslint-react-a11y#readme",
   "dependencies": {
     "tslint-microsoft-contrib": "^6.0.0"
   }
