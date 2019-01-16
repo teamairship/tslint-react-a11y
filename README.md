@@ -1,6 +1,6 @@
 # Airship TSLint React a11y Extension
 
-JSX a11y rules to extend [TSLint](https://palantir.github.io/tslint/) used by the [Airship](https://teamairship.com) Builders. Big thanks to what appears to be a stale [tslint-react-a11y](https://github.com/joaovieira/tslint-react-a11y) for the inspiration and [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib) for the rules. This package is designed to extend the functionality of [@teamairship/tslint-react-config](https://github.com/teamairship/tslint-react-config) while leaving the flexibility to leave these rules out when needed.
+JSX a11y rules to extend [TSLint](https://palantir.github.io/tslint/) used by the [Airship](https://teamairship.com) Builders. This package is designed to extend the functionality of [@teamairship/tslint-react-config](https://github.com/teamairship/tslint-react-config) while leaving the flexibility to leave these rules out when needed.
 
 ## Installation
 
@@ -12,11 +12,17 @@ In `tslint.json`
 
 ```json
 {
-  "extends": ["@airship/tslint-react-a11y"]
+  "extends": ["@airship/tslint-react-a11y"],
+    "rules": {
+    // override tslint-react-a11y rules here
+    "react-a11y-lang": false
+  }
 }
 ```
 
 ## Supported Rules
+
+All rules are enabled by default.
 
 | Rule Name                                 | Description    |
 | :---------------------------------------- | :------------- |
@@ -46,3 +52,8 @@ Bug reports and pull requests are welcome on GitHub at [https://github.com/teama
 ## License
 
 This package is available as open source under the terms of the [MIT License](https://github.com/teamairship/tslint-react-a11y/blob/master/LICENSE).
+
+## Thanks
+
+- [tslint-react-a11y](https://github.com/joaovieira/tslint-react-a11y) for the inspiration
+- [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib) for the rules
