@@ -1,6 +1,6 @@
 # Airship TSLint React a11y Extension
 
-JSX a11y rules to extend [TSLint](https://palantir.github.io/tslint/) used by the [Airship](https://teamairship.com) Builders. This package is designed to extend the functionality of [@teamairship/tslint-react-config](https://github.com/teamairship/tslint-react-config) while leaving the flexibility to leave these rules out when needed.
+JSX a11y rules to extend [TSLint](https://palantir.github.io/tslint/) used by the [Airship](https://teamairship.com) Builders. This package is designed to extend the functionality of [@teamairship/tslint-react-config](https://www.npmjs.com/package/@airship/tslint-react-config) while leaving the flexibility to leave these rules out when needed.
 
 ## Installation
 
