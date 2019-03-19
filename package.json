@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/teamairship/tslint-react-a11y#readme",
   "dependencies": {
-    "tslint-microsoft-contrib": "^6.0.0"
+    "tslint-microsoft-contrib": "^6.1.0"
   }
 }
