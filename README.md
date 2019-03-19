@@ -30,6 +30,7 @@ All rules are enabled by default.
 | `react-a11y-anchors`                      | Coming soon... |
 | `react-a11y-aria-unsupported-elements`    | Coming soon... |
 | `react-a11y-event-has-role`               | Coming soon... |
+| `react-a11y-iframes`                      | Coming soon... |
 | `react-a11y-image-button-has-alt`         | Coming soon... |
 | `react-a11y-img-has-alt`                  | Coming soon... |
 | `react-a11y-input-elements`               | Coming soon... |
