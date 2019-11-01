@@ -1,3 +1,10 @@
+NOTE: Airship has moved away from TSLint and now uses [`typescript-eslint`](https://typescript-eslint.io/) as our primary TypeScript linting tool. This decision was made after reading [The future of TypeScript on ESLint](https://eslint.org/blog/2019/01/future-typescript-eslint) and these lines from the [TypeScript Roadmap](https://github.com/Microsoft/TypeScript/issues/29288)
+> we noticed that there were a few architectural issues with the way TSLint rules operate that impacted performance  
+> [...]  
+> Given this, our editor team will be focusing on leveraging ESLint
+
+With this, Pull Requests are appreciated but our team will be focusing our efforts elsewhere at this time.
+
 # Airship TSLint React a11y Extension
 
 [![npm package](https://img.shields.io/npm/v/@airship/tslint-react-a11y.svg?style=flat-square)](https://www.npmjs.org/package/@airship/tslint-react-a11y)
